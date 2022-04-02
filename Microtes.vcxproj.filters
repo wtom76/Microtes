@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Microtes.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="data\field.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\microte.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\microte_impl\a001\a001_microte_impl.h">
+      <Filter>data\microte_impl\a001</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="neural\net.h">
+      <Filter>neural</Filter>
+    </ClInclude>
+    <ClInclude Include="neural\gene.h">
+      <Filter>neural</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h" />
+    <ClInclude Include="configuration.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Microtes.ico" />
+    <Image Include="small.ico" />
+    <Image Include="toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Microtes.cpp" />
+    <ClCompile Include="data\field.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\microte_impl\a001\a001_microte_impl.cpp">
+      <Filter>data\microte_impl\a001</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp" />
+    <ClCompile Include="neural\net.cpp">
+      <Filter>neural</Filter>
+    </ClCompile>
+    <ClCompile Include="neural\gene.cpp">
+      <Filter>neural</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="configuration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Microtes.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{f1379132-2496-4b32-beb1-33b8d748a695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\microte_impl">
+      <UniqueIdentifier>{46643979-ccab-469e-9f86-0e0243838134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\microte_impl\a001">
+      <UniqueIdentifier>{5894be48-6d1b-4754-b9fc-33c4efe597d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="neural">
+      <UniqueIdentifier>{e258d667-4ea5-432c-91cb-a8dce0990c38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
